@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class DestroyCandy : MonoBehaviour
+public class DestroyCandyBad : MonoBehaviour
 {
-    [SerializeField] ScoreManager script;
+   
     public BoxCollider2D playerRb;
 
   
@@ -18,8 +19,8 @@ public class DestroyCandy : MonoBehaviour
         {
 
             Debug.Log("Object is triggered by player");
-            script.RaiseScore();
             Destroy(this.gameObject);
+            SceneManager.LoadScene("EndScene");
 
         }
 
