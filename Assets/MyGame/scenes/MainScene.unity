@@ -603,6 +603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 665958535}
   - component: {fileID: 665958536}
+  - component: {fileID: 665958537}
   m_Layer: 0
   m_Name: ScoreManagement
   m_TagString: ScoreManager
@@ -638,9 +639,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1592962714}
   scoreCount: 0
-  playerName: {fileID: 1346391213}
-  timer: 10
-  currentTime: 0
+--- !u!114 &665958537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665958534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d522797c3d34055b91f43a3c994e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 60
+  currentTime: 10
   timerText: {fileID: 245947855}
   sceneName: EndScene
 --- !u!1 &903271437
@@ -1019,6 +1031,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: StatsManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4101197868439781478, guid: 420b38ff15e9747ee88701cc22ecd55d, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1592962714}
+    - target: {fileID: 4101197868439781478, guid: 420b38ff15e9747ee88701cc22ecd55d, type: 3}
+      propertyPath: playersName
+      value: 
+      objectReference: {fileID: 1346391213}
+    - target: {fileID: 4101197868439781478, guid: 420b38ff15e9747ee88701cc22ecd55d, type: 3}
+      propertyPath: userNameText
+      value: 
+      objectReference: {fileID: 1346391213}
     - target: {fileID: 4941433107573952002, guid: 420b38ff15e9747ee88701cc22ecd55d, type: 3}
       propertyPath: m_RootOrder
       value: 4
