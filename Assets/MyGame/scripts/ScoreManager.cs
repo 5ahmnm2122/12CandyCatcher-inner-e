@@ -10,44 +10,17 @@ public class ScoreManager : MonoBehaviour
 
     [SerializeField] int scoreCount;
 
-    [SerializeField] Text playerName;
-
-    [SerializeField] int timer = 60;
-
-    [SerializeField] float currentTime;
-
-    [SerializeField] Text timerText;
-
-    [SerializeField] string sceneName;
+    // [SerializeField] Text playerName;
 
 
-    public void Start()
-    {
 
-        currentTime = timer;
-    }
 
     public void RaiseScore()
     {
         scoreCount++;
         scoreText.text = scoreCount.ToString();
+        
     }
 
-    void Update() {
-
-        currentTime -= 1 * Time.deltaTime;
-        timerText.text = currentTime.ToString();
-       
-
-
-        if (timer == 0)
-        {
-
-            SceneManager.LoadScene(sceneName);
-           
-        }
-
-     
-
-    }
+    
 }
