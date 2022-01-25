@@ -806,6 +806,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: StatsManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4101197868439781478, guid: 420b38ff15e9747ee88701cc22ecd55d, type: 3}
+      propertyPath: nameInput
+      value: 
+      objectReference: {fileID: 855296745}
+    - target: {fileID: 4101197868439781478, guid: 420b38ff15e9747ee88701cc22ecd55d, type: 3}
+      propertyPath: playersName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4941433107573952002, guid: 420b38ff15e9747ee88701cc22ecd55d, type: 3}
       propertyPath: m_RootOrder
       value: 3

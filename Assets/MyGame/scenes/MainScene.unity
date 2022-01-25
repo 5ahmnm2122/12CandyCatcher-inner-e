@@ -652,7 +652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 60
-  currentTime: 10
+  currentTime: 30
   timerText: {fileID: 245947855}
   sceneName: EndScene
 --- !u!1 &903271437
