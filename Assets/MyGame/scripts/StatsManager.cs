@@ -1,4 +1,4 @@
-using System.Collections;
+/* using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -29,12 +29,6 @@ public class StatsManager : MonoBehaviour
 
     }
 
-    /* void RemeberName()
-    {
-       
-        GameObject.Find("buttonStart").GetComponent<Button>().interactable =
-            GameObject.Find("userName").GetComponent<InputField>().text.Length >= 4 ? true : false;
-        userName = GameObject.Find("userName").GetComponent<InputField>().text;
-    }
-     */
+  
 }
+*/
