@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ScoreManager
+  - SceneSwitch
+  - Statmanager
+  - PlayerName
   layers:
   - Default
   - TransparentFX

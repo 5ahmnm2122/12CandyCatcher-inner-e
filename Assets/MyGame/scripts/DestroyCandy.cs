@@ -7,9 +7,16 @@ public class DestroyCandy : MonoBehaviour
 {
     [SerializeField] ScoreManager script;
     public BoxCollider2D playerRb;
+    public GameObject player;
+    public int scoreInt;
 
-  
 
+  /*  void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(player);
+    }
+  */
 
     public void OnTriggerEnter2D(Collider2D collider)
     {

@@ -20,7 +20,7 @@ public class Spawner : MonoBehaviour
         int positionY = Random.Range(700 / 2, 600 / 2);
         GameObject targetInstance = Instantiate(candy, canvas.transform);
         targetInstance.GetComponent<RectTransform>().localPosition = new Vector2(positionX, positionY);
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         StartCoroutine(SpawnTarget());
     }
 }

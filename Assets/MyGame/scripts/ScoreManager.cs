@@ -7,20 +7,17 @@ using UnityEngine.SceneManagement;
 public class ScoreManager : MonoBehaviour
 {
     [SerializeField] Text scoreText;
+    public int scoreCount;
 
-    [SerializeField] int scoreCount;
-
-    // [SerializeField] Text playerName;
-
-
-
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
 
     public void RaiseScore()
     {
         scoreCount++;
         scoreText.text = scoreCount.ToString();
-        
     }
-
     
 }
