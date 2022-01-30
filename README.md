@@ -20,7 +20,7 @@ WEbGl https://5ahmnm2122.github.io/12CandyCatcher-inner-e/
 
 
 ### Project state: 
-80%/100% finished
+finished
 
 ### Limitations: 
 
