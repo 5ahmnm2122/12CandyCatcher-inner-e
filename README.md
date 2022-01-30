@@ -12,7 +12,7 @@ Unity 2020.3.22f1
 
 
 ### Target platform:
-WEbGl
+WEbGl http://localhost:53511/
 
 
 ### Visuals: 
