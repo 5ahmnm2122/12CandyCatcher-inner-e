@@ -12,7 +12,7 @@ Unity 2020.3.22f1
 
 
 ### Target platform:
-WEbGl http://localhost:53860
+WEbGl https://5ahmnm2122.github.io/12CandyCatcher-inner-e/
 
 
 ### Visuals: 
