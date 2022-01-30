@@ -12,7 +12,7 @@ Unity 2020.3.22f1
 
 
 ### Target platform:
-WEbGl
+WEbGl http://localhost:53860
 
 
 ### Visuals: 
@@ -20,12 +20,12 @@ WEbGl
 
 
 ### Project state: 
-80%/100% finished
+90%/100% finished
 
 ### Limitations: 
 
 ### Lessons Learned:
-Spawning gameobjects
+Spawning gameobjects; working with different scenes.
 
 
 Copyright by inner-e
