@@ -8,7 +8,6 @@ public class Spawner : MonoBehaviour
     [SerializeField] GameObject canvas;
 
 
-    // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(SpawnTarget());

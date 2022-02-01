@@ -11,13 +11,6 @@ public class DestroyCandy : MonoBehaviour
     public int scoreInt;
 
 
-  /*  void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);
-        DontDestroyOnLoad(player);
-    }
-  */
-
     public void OnTriggerEnter2D(Collider2D collider)
     {
         Debug.Log("Object is triggered");
